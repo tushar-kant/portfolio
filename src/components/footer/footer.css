@@ -1,0 +1,8 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    background: linear-gradient(0.25turn, #f5ebe5, #ffebe0, #f5ebe5);
+}

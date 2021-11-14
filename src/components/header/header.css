@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  background: linear-gradient(0.25turn, #f5ebe5, #ffebe0, #f5ebe5);
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  position: relative;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.mobile-menu {
+  display: none;
+}
+.web-menu {
+  display: flex;
+}
+.web-option {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.logo {
+  display: flex;
+  font-size: 38px;
+  font-weight: 800;
+  font-family: "Ubuntu", sans-serif;
+}
+.logo-1 {
+  font-weight: bolder;
+  color: red;
+}
+.logo-2 {
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile-menu {
+    display: flex;
+  }
+  .web-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}
+
