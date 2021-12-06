@@ -13,6 +13,6 @@ export const WorkData = [
         dateJoining:"05.05.2021",
         dateEnd:"16.06.2021",
         companyLogo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZBjQtr0k_DbZrBHYycLJOdu7q12WmYeWyGG862MOqNcxuukcWtNkGQQFK1lOuUHTFV4&usqp=CAU",
-        work:"I developed a shopping website having a backend and with a integrated payment gateway."
+        work:"I developed a contact manager website having a backend and with a database connected",
     },
 ]
